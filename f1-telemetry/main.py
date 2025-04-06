@@ -8,7 +8,7 @@
 # laps = session.laps.pick_fastest()
 # print(laps[['Driver', 'LapTime']])
 
-from app.menu import user_menu
+from core.menu import user_menu
 
 def main():
     user_menu()
